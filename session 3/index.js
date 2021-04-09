@@ -81,5 +81,7 @@
       // alert(`${n} is FOUND in my array at index 3`)
       // }
 // cau 8 ;
-   //   let size = [5,7,300,90,24,50,75];
-   //   console.log('Hello, my name is Phuong Nam and here is my sheep sizes :')
+   //   let size = [5, 7, 300, 90, 24, 50, 75];
+   //   console.log('Hello, my name is Phuong Nam and here is my sheep sizes :') ;
+   //   let a = size.join(' ') ;
+   //   console.log(a) ;

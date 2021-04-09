@@ -189,3 +189,35 @@
 //             alert(`There are 0 generations of '${brand.toUpperCase()}' in inventory`)
 //         }
 //     }
+
+
+
+
+
+
+
+
+// function hiNam() {
+    // alert('Hi Nam') ;
+    // alert('Nam, function is great') ;
+// }
+
+// function sayHi (name) {
+    // alert ('Hi' + name) ;              sayHi ('Nam', "Function is great");
+    // alert ('${name}, ${comment}') ;    sayHi ('Duyen', "You look great");
+// }
+
+let x = sayHi ;
+x('Hello') ;
+function sayHi(name) {
+    alert('Hi' + name);
+}
+function sayGoodBye(name){
+    alert('Goodbye' + name)
+}
+function testSay(f) {
+    alert("Here I say") ;
+    f() ;
+}
+testSay(sayHi) ;
+testSay(sayGoodBye) ;
